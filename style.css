@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(206, 179, 24, 0.904);
+    color: rgba(26, 22, 22, 0.836)
+}
+
+main{
+    width: 80%; /*Ancho del bloque main acapare el 80% del body*/
+    margin: 0 auto;
+    background: white;
+    padding: 80px 50px;
+    border-radius: 10px;
+}
+
+#login_img { /*Para acceder a un identificador se usa signo #*/
+    width: 40%;
+    vertical-align: top; 
+    margin-top: 80px;
+}
+
+.formulario{ /*para acceder a una clase se usa . */
+width: 50%;
+display:inline-block;
+}
+
+.formulario label {
+    display:block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formulario input, textarea, select {
+    width: 100%;
+}
+
+.genero label, #masculino, #femenino,#otro {
+    display: inline-block; 
+    width: unset;
+}
+
+#btn{
+    color: yellow;
+    background-color:rgba(26, 22, 22, 0.836);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}

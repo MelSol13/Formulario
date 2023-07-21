@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tarea Formulario De Registro</title>
+</head>
+<body>
+    <main>
+    <img src="img/undraw.png" id="login_img" alt="imagen de login"> 
+    <form class="formulario">
+        <h1>Mi Formulario De Registro</h1>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email">
+        <label for="contrasena">Contrasena:</label>
+        <input type="password" name="password" id="contrasena">
+        <label for="confirmar"></label>
+        <input type="password" name="confirmar" id="confirmar">
+        <label for="nacimiento">Fecha De Nacimiento:</label>
+        <input type="date" name="nacimiento" id="nacimiento">
+    <div class="genero">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="genero" id="femenino">
+        <label for="otro">Otro /Prefiero no decir</label>
+        <input type="radio" name="genero" id="otro">
+    </div>
+        <label for="descripcion">Descripción</label>
+        <textarea name="descripcion" id="descripcion"></textarea>
+        <label for="lenguaje">Lenguaje</label>
+        <select name="lenguaje" id="lenguaje">
+            <option>Javascript</option>
+            <option>Python</option>
+            <option>C#</option>
+        </select>
+        <input type="Submit" value="Enviar" id="btn">
+    </form>
+    </main>
+</body>
+</html>
